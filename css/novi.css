@@ -1,4 +1,7 @@
 
+[data-novi-id="23"]{
+  text-align: center;
+}
 [data-novi-id="20"]{
   color: rgba(201, 201, 201, 1);
   font-weight: 600;
@@ -4955,9 +4958,11 @@
 }
 [data-novi-id="25"]{
   line-height: 38px;
+  text-align: center;
 }
 [data-novi-id="24"]{
   line-height: 38px;
+  text-align: center;
 }
 .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle[data-novi-id="23"]{
   line-height: 38px;
