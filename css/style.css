@@ -59,6 +59,7 @@
 *     6.1 FontAwesome
 *     6.2 MDI
 **/
+
 a:focus,
 button:focus {
   outline: none !important;
@@ -29002,3 +29003,12 @@ body:not(.lg-from-hash)
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Manual add by support team. To center the UI-GO-TOP arrow. */
+
+.ui-to-top.active {
+
+  line-height: 58px;
+  
+  }
