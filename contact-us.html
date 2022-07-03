@@ -409,7 +409,92 @@
                     name="name"
                     data-constraints="@Required"
                   />
-                  <label class="form-label" for="contact-name">Your name</label>
+                  <label class="form-label" for="contact-name"
+                    >Your name*</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="contact-company"
+                    type="text"
+                    name="company"
+                  />
+                  <label class="form-label" for="contact-company"
+                    >Company</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="event-type"
+                    type="text"
+                    name="event-type"
+                  />
+                  <label class="form-label" for="event-type"
+                    >Type of Event: Wedding/Corporate/Other</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="venue-location"
+                    type="text"
+                    name="venue-location"
+                  />
+                  <label class="form-label" for="venue-location"
+                    >Venue/Location</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="event-hours"
+                    type="text"
+                    name="event-hours"
+                  />
+                  <label class="form-label" for="event-hours"
+                    >Event Hours</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="guest-count"
+                    type="text"
+                    name="guest-count"
+                  />
+                  <label class="form-label" for="guest-count"
+                    >Expected Guest Count</label
+                  >
+                </div>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon linear-icon-man"></span>
+                  <input
+                    class="form-input"
+                    id="contact-company"
+                    type="text"
+                    name="budget"
+                  />
+                  <label class="form-label" for="budget">Budget</label>
+                </div>
+                <p style="color: white">Event Date:</p>
+                <div class="form-wrap form-wrap_icon">
+                  <span class="novi-icon form-icon mdi-calendar mdi"></span>
+                  <input
+                    class="form-input"
+                    id="event-date"
+                    type="date"
+                    name="date"
+                    data-constraints="@Required"
+                  />
+
+                  <label class="form-label" for="event-date"></label>
                 </div>
                 <div class="form-wrap form-wrap_icon">
                   <span class="novi-icon form-icon linear-icon-envelope"></span>
@@ -421,7 +506,7 @@
                     data-constraints="@Email @Required"
                   />
                   <label class="form-label" for="contact-email"
-                    >Your e-mail</label
+                    >Email Address*</label
                   >
                 </div>
                 <div class="form-wrap form-wrap_icon">
@@ -448,22 +533,10 @@
                     data-constraints="@Required"
                   ></textarea>
                   <label class="form-label" for="contact-message"
-                    >Your message:</label
+                    >Services Needed*</label
                   >
                 </div>
-                <p style="color: white">Event Date:</p>
-                <div class="form-wrap form-wrap_icon">
-                  <span class="novi-icon form-icon mdi-calendar mdi"></span>
-                  <input
-                    class="form-input"
-                    id="event-date"
-                    type="date"
-                    name="date"
-                    data-constraints="@Required"
-                  />
 
-                  <label class="form-label" for="event-date"></label>
-                </div>
                 <button class="button button-primary" type="submit">
                   send
                 </button>
